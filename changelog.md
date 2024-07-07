@@ -1,6 +1,18 @@
 Changelog
 =========
 
+3.5.2
+-----
+
+Proposed 2024-07-07.
+
+**ProTools WAV Compatibility and Cleanup**
+
+* Replaced use of the `try!(..)` macro with `?`
+* Added in a few `let _ =` for unusable results
+* Removed some stringency for `read_wave_format_ieee_float` to allow for enhanced ProTools Compatibility
+* Did a `cargo fmt`
+
 3.5.1
 -----
 
